@@ -1,0 +1,132 @@
+/* Global Page Styling */
+body {
+    padding-top: 60px; /* Prevent content from hiding behind navbar */
+    font-family: Arial, sans-serif;
+    background: #1e1e2f;
+    margin: 0;
+    color: white;
+}
+
+/* Login Page Container */
+.login-container {
+    background: #2c2c40;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px; /* Centers vertically below navbar */
+}
+
+/* Form Inputs Style */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    margin-left: -10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* General Button Styling */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Login Error Text */
+.error {
+    color: #ff7b7b;
+    font-size: 14px;
+}
+
+/* Navigation Bar -> Fixed at Top */
+.navbar {
+    width: 100%;
+    height: 60px;
+    background: #2c2c40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; /* Keeps nav above everything */
+}
+
+/* Navigation Links Container */
+.nav-left {
+    display: flex;
+    gap: 25px; /* Space between links */
+}
+
+/* Navigation Links Design */
+.nav-left a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-left a:hover {
+    color: #9fa8da; /* Hover color */
+}
+
+/* Highlight the current page in the navbar */
+.nav-left a.active {
+    color: #9fa8da;
+    text-decoration: underline;
+}
+
+/* Logout Button Design */
+.logout-btn {
+    background: #ff5252;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-right: 50px; /* Moves button slightly inward */
+}
+
+.logout-btn:hover {
+    background: #e04343;
+}
+
+/* Push Content Down Below Navbar */
+.content {
+    padding-top: 120px;
+    text-align: center;
+}
+
+/* Profile Image Design */
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Reusable Content Card */
+.card {
+    margin: 25px auto;
+    width: 350px;
+    background: #2c2c40;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
